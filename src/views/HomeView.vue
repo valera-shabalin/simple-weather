@@ -1,5 +1,7 @@
 <template>
   <div class="home-wrapper">
+    <router-link to="auth/login">Auth</router-link>
+
     <div class="home-toolbar">
       <span class="home-toolbar__icon">icon</span>
       <h1>Томск +13°C</h1>
