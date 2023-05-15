@@ -2,6 +2,10 @@
   "name": "simple-weather",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "email": "vshabalin.lk@yandex.ru",
+    "name": "Valerii Shabalin"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -61,5 +65,9 @@
   },
   "lint-staged": {
     "*.{js,jsx,vue,ts,tsx}": "npm run lint"
+  },
+  "engines": {
+    "node": ">=v18.16.0",
+    "npm": ">=9.5.1"
   }
 }
